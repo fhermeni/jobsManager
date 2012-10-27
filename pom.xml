@@ -9,7 +9,7 @@
         This relies on an Rest API with a HTTP server to dispatch the jobs,
         gather the results and provides resources when available
     </description>
-    <version>1.1</version>
+    <version>1.2-SNAPSHOT</version>
 
     <scm>
         <connection>scm:git:git@github.com:fhermeni/jobsManager.git</connection>
