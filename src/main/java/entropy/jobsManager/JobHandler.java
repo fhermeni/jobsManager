@@ -103,7 +103,6 @@ public class JobHandler {
         ContentExchange e = new ContentExchange();
         e.setMethod("GET");
         e.setRequestURI("/" + rc);
-        //e.setURI("/" + rc);
         e.setAddress(addr);
         client.send(e);
         try {

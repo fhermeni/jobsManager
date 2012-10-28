@@ -103,7 +103,7 @@ public class JobDispatcher {
         rcHandler.getMimeTypes().addMimeMapping("pbd", "application/x-protobuf");
 
 
-        this.server = new Server(8080);
+        this.server = new Server(p);
         this.server.setStopAtShutdown(true);
         this.server.setGracefulShutdown(5000);
 
@@ -127,7 +127,7 @@ public class JobDispatcher {
             logger.info("JobDispatcher ended");
         } catch (Exception e) {
             logger.info(e.getMessage());
-            System.err.println(e.getMessage());
+            //System.err.println(e.getMessage());
         }
     }
 
